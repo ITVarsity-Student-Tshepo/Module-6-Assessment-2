@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>Mercedes-Benz W198 300SL Roadster</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/Mercedes_Benz_300SL_Roadster1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/Mercedes_Benz_300SL_Roadster2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/Mercedes_Benz_300SL_Roadster3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/Mercedes_Benz_300SL_Roadster4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/Mercedes_Benz_300SL_Roadster5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Fully restored</li>
+                    <li>Extensive documentation including expert opinion</li>
+                    <li>Classic color combination</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1952</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Light Beige</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>1,200 KM since restoration</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>105 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€154 900</td>
+                    </tr>
+                </table>
+                
+                <p>In September 1953, the US importer of Daimler-Benz, Max Hoffman, presented his ideas for increasing US business to the company's board of directors. He wanted two differently designed sports car models to complement the previously rather conservative Mercedes model range. The 300 SL racing coupé from 1952, which had attracted attention in the USA by winning the Carrera Panamericana, was the ideal basis for the conception of a real sports car. In addition to this, a sporty touring car with high suitability for everyday use should also be offered. Hoffman received the promise that from February 6 to 14, 1954, one study of each of these vehicles could be exhibited in New York at the "International Motor Sports Show". Despite the extremely short development time of just five months, prototypes of the 300 SL and 190 SL could be produced, which were enthusiastically received by visitors to the New York Auto Show and the trade press. The development of the 300 SL was already well advanced, so that production could start in August 1954. In the course of 1954, Walther Häcker's body design team carried out several optical retouchings on the New York version of the 190 SL in order to bring this vehicle closer to the shape of the 300 SL designed by Friedrich Geiger, e.g. B. the removal of the air scoop on the hood and retouching of turn signals, radiator grille, bumpers, rear fender and dashboard. The first revised 190 SL was shown at the Geneva Motor Show in March 1955. Series production began two months later at the Sindelfingen plant, where the 300 SL was also produced. The originally targeted top speed of 190 km/h could not be achieved. In practice, the maximum was often reached at around 170 km/h. At the IAA 1955 in Frankfurt am Main, the base price of the most expensive variant, the “coupé with hardtop attachment and soft top”, was 17,650 DM, which, based on today’s purchasing power and adjusted for inflation, corresponds to 45,200 euros. At that time, a Porsche 356 cost DM 13,000. With some additional equipment, the price of a 190 SL could rise to over DM 20,000. A Mercedes 180 Ponton sedan was available for half that. The sales price in the USA was set lower compared to that in Germany. With 25 With 881 vehicles built, the concept of a touring sports car based on mass production technology proved to be successful. The 190 SL embodied the "We're back again" feeling in the still young Federal Republic of Germany during the period of the economic miracle and was a popular prop in many German feature films of this era. The success of the vehicle can be summarized in the following three points: a comfortable touring car with the sporty design of the 300 SL and appealing driving performance, compared to other touring sports vehicles, relatively undemanding standard technology and easy handling, as well as impressive versatility. The 190 SL embodied the "We're back again" feeling in the still young Federal Republic of Germany during the period of the economic miracle and was a popular prop in many German feature films of this era. The success of the vehicle can be summarized in the following three points: a comfortable touring car with the sporty design of the 300 SL and appealing driving performance, compared to other touring sports vehicles, relatively undemanding standard technology and easy handling, as well as impressive versatility. The 190 SL embodied the "We're back again" feeling in the still young Federal Republic of Germany during the period of the economic miracle and was a popular prop in many German feature films of this era. The success of the vehicle can be summarized in the following three points: a comfortable touring car with the sporty design of the 300 SL and appealing driving performance, compared to other touring sports vehicles, relatively undemanding standard technology and easy handling, as well as impressive versatility.</p>
+                
+                <p>The vehicle offered here was completed in March 1962 and delivered to the Netherlands. The vehicle remained in its original Dutch ownership for around 25 years before it was exported to Hawaii in 1987, where the 190 SL was registered to its new owner, Mr. Wilfried Munar. Mr. Munar remained the owner of the car for the next two decades before finally deciding to sell his 190 SL in 2008. In December 2008, the vehicle will be declared in Warsaw by its new owner and will be imported into Poland. Only a short time later, the extensive and very high-quality restoration takes place, which should take over 24 months. After completion of the work, the vehicle will be registered in July 2011 to its new owner, residing in Aalen, Germany. 4 years later, in October 2015 the last registered change of ownership took place. In September 2017, the 190 SL was acquired by our collection management and remained in our possession for the following years before the decision to sell the car was finally made. If you have any detailed questions, please contact our sales staff at any time. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

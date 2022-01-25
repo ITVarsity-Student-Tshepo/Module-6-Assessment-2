@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>MERCEDES-BENZ W 111 280 SE 3.5 COUPÉ</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20111%20280%20SE%203.5%20COUP%C3%891.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20111%20280%20SE%203.5%20COUP%C3%892.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20111%20280%20SE%203.5%20COUP%C3%893.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20111%20280%20SE%203.5%20COUP%C3%894.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20111%20280%20SE%203.5%20COUP%C3%895.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Mechatronic full restoration</li>
+                    <li>Extensive documentation</li>
+                    <li>Matching numbers</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1970</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>DB 180 silver grey</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>600 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>200 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€239 000</td>
+                    </tr>
+                </table>
+                
+                <p>The Mercedes-Benz 280 SE 3.5 is considered the top model of the W111 series, which was produced by Daimler-Benz from 1961 to 1971. In both the coupé and convertible versions, the classic still impresses with style and elegance. Mercedes-Benz started selling the W111 models back in 1961, setting completely new standards in terms of safety. A major innovation was a body that, for the first time ever in a passenger car, was provided with a stable passenger cell and an effective crumple zone. Also, the W111 models were equipped with wedge-pin door locks that could not accidentally spring open. This was important, among other things, because - as with many cars of the time - not every W111 had seat belts for the passengers. On the other hand, the cars had other, modern safety measures inside: For example, the steering wheel was fitted with a soft-covered impact plate, and the dashboard also had padding and was equipped with control elements that were partially sunk in elastically. The engine performance of the various models was repeatedly increased over several years, until it finally reached its peak in the jewel of the series - the Mercedes-Benz 280 SE 3.5. But the model had other features that set it apart from its predecessors. The engine performance of the various models was repeatedly increased over several years, until it finally reached its peak in the jewel of the series - the Mercedes-Benz 280 SE 3.5. But the model had other features that set it apart from its predecessors. The engine performance of the various models was repeatedly increased over several years, until it finally reached its peak in the jewel of the series - the Mercedes-Benz 280 SE 3.5. But the model had other features that set it apart from its predecessors.</p>
+                
+                <p>It took eight years after the model launch until Daimler-Benz introduced a 3.5-liter V8 engine installed in the 280 SE 3.5 in 1969, which with a displacement of 3499 cm³ achieved a whopping 200 hp (147 kW) and with it reached a top speed of 205 km/h during a fast sprint over the asphalt. But it was not only technically that the Mercedes-Benz 280 SE 3.5 differed from its previous model siblings, which at best had touched the 170 hp mark. A clear facelift could also be seen on the outside, in which the front end of the car was equipped with a flatter bonnet and a lower grille. Since then, the models have been differentiated as the older "high cooler" and the later "flat cooler". The latter are considered to be the most coveted models in the classic series today. The gems are particularly valuable today because only a small number of them left the Daimler-Benz factory. Between 1969 and 1971, only 3,270 Mercedes-Benz 280 SE 3.5 coupés and, with a number of 1,232 convertibles, even fewer were allowed to enter service on the road.</p>
+                
+                <p>The vehicle offered here was completed on June 8, 1970 and then shipped to California in the USA. On October 15, 1974, the coupe was sold by Mercedes-Benz of Hollywood, California to Richard N. Bodine of 100 E Mountain View St. in Barstow, California. The current mileage was 11,553 miles. Approved with registration number 108BXW. Unfortunately, despite extensive research, we do not know anything about the further history in the USA. In the summer of 2013, it was purchased and re-imported to Germany, before the restoration finally started in our in-house manufactory in December 2013. The restoration was carried out strictly according to the data card and so the vehicle is presented today in exactly the specification in which it rolled off the assembly line at the time. Only the conversion to EU standards was carried out. In the following 23 months, this W111 coupé was restored to the highest quality standards in over 2700 working hours. Extensive documentation on this is of course available. The vehicle was finally completed in December 2015. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. In the following 23 months, this W111 coupé was restored to the highest quality standards in over 2700 working hours. Extensive documentation on this is of course available. The vehicle was finally completed in December 2015. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. In the following 23 months, this W111 coupé was restored to the highest quality standards in over 2700 working hours. Extensive documentation on this is of course available. The vehicle was finally completed in December 2015. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Extensive documentation on this is of course available. The vehicle was finally completed in December 2015. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Extensive documentation on this is of course available. The vehicle was finally completed in December 2015. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Until April 2016, this coupé served as a mechatronics reference vehicle at numerous trade fairs and concours events until it was finally sold to its current owner in June 2016, on whose behalf this Mercedes-Benz W111 280 SE 3.5 Coupé is now being offered again. Our sales staff will be happy to answer any questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

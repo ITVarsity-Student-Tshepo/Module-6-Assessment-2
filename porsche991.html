@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>PORSCHE 991 CARRERA S ANNIVERSARY MODEL 50 YEARS 911</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20991%20CARRERA%20S%2050%20Years1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20991%20CARRERA%20S%2050%20Years2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20991%20CARRERA%20S%2050%20Years3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20991%20CARRERA%20S%2050%20Years4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20991%20CARRERA%20S%2050%20Years5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Limited to 1,963 vehicles</li>
+                    <li>From first owner</li>
+                    <li>New car condition</li>
+                    <li>Only 400 km mileage</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Geyser Gray Metallic</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather brown / fabric Pepita</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>400 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>400 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€259 000</td>
+                    </tr>
+                </table>
+                
+                <p>Porsche is celebrating 50 years of the Porsche 911 at the IAA in Frankfurt. And of course there is a birthday 911 for the holiday. From the anniversary edition, 1,963 very special 911 Carrera S will be made. And why 1,963? Because the original 911 was presented at the IAA in 1963. And why only a 911 Carrera S? Because the original model was a coupé with rear-wheel drive and a six-cylinder boxer at the rear. The special model is special, however, as it is allowed to wear the wide rear end that is otherwise reserved for all-wheel drive models. The PASM chassis was tuned to the wider track, and a sports exhaust system contributes a crisper sound. In the wheelhouses are 20-inch rims with a matt black surface and a high-sheen star, the design of which is based on the legendary Fuchs rims. Other features of the Porsche 911 special model are chrome strips in the front air intake, on the slats of the engine compartment grille and the panel between the rear lights, as well as the bi-xenon headlights with dynamic cornering lights. There are also glossy trim strips as window frames and sport design exterior mirrors. The Porsche 911 anniversary model is optionally available in "graphite grey" and "geyser gray metallic" as well as in "black". The birthday 911 bears the lettering “911 50” in 3D on the boot lid. This is repeated in three colors embroidered in the headrest and in two colors as a logo in the rev counter and in the aluminum door sill trims. It is also emblazoned on the cover of the cup holder together with the individual limitation number of the respective vehicle. References to the original 911 can also be found in the interior of the Porsche 911-50 years special model: the labeling of the instruments is green like 50 years ago, the needles are white and the axles are covered with silver caps. The fabric center panels of the leather/fabric seats cite the "Pepita" check pattern of the 1960s. If you choose full leather equipment, you get seat covers in agate gray or black with decorative stitching, some in a contrasting color. There are also trim panels on the dashboard, the doors and the center console in brushed aluminum. The shift or selector lever comes from the Porsche Exclusive range. The driving performance of the 400 hp Porsche special model 50 Years 911 largely corresponds to that of the 911 Carrera S. The anniversary 911 sprints in 4.5 seconds (4, 3 with PDK) from zero to 100 km/h and reaches a top speed of 300 km/h (298 with PDK). Consumption is 9.5 l/100 km (8.7 with PDK).</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

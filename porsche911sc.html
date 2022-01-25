@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>PORSCHE 911 (997) SPORT CLASSIC</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20911%20(997)%20SPORT%20CLASSIC1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20911%20(997)%20SPORT%20CLASSIC2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20911%20(997)%20SPORT%20CLASSIC3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20911%20(997)%20SPORT%20CLASSIC4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20911%20(997)%20SPORT%20CLASSIC5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Strictly limited to 250 vehicles</li>
+                    <li>Absolute collector's vehicle</li>
+                    <li>New car condition</li>
+                    <li>Only 500 km mileage</li>
+                    <li>Incl. new service</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>C1 sport classic grey</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather interior espresso</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>500 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>408 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€499 000</td>
+                    </tr>
+                </table>
+                
+                <p>With the 911 Sport Classic, Porsche is once again reviving the tradition of exclusive small series in limited numbers. The special character of this 911 is the double-dome roof, reminiscent of the 911 Panamericana study from 1989 and the Carrera GT super sports car presented in 2000. But that's not all, another legendary Porsche model is quoted: the 911 Carrera RS 2.7 from 1972. Porsche advertised its top model at the time with the slogan "Only 500 men will drive it". The most striking feature of the 210 hp lightweight construction were a plastic front spoiler and the trunk lid with the part that went down in automotive history as the "ducktail" and that our Sport Classic also wears again. The Carrera RS hit like a bomb at the time and Zuffenhausen sold more than the originally planned 500 units, namely 1,525. Something like that will not happen with the 911 Sport Classic: There were definitely only 250 copies of it. The 911 Sport Classic is based on the rear-wheel drive Carrera S, but has a 44 millimeter wider rear end with an increased rear track width. At the front there is a "SportDesign" front apron with its own spoiler lip. At the rear, the already mentioned fixed rump rounds off the special appearance. The car has the well-known 3.8-liter six-cylinder with direct fuel injection. However, the performance has been increased by 23 to 408 hp This was ensured by a revision of the intake tract, which optimized performance and torque, especially in the medium speed range, as well as modified cylinder heads, a new suction system and a new engine control. The Porsche engineers proudly refer to the exclusive variable resonance intake system, in which six vacuum-controlled flaps switch between performance and torque-optimized geometry. They are opened or closed simultaneously depending on engine speed and accelerator pedal position. The result: an optimized vibration of the air in the intake tract, which ensures improved filling of the combustion chamber. An exhaust system specially developed for the vehicle ensures the right exhaust back pressure, and with the high-gloss tailpipes including mesh insert and the upper shell of the air filter housing in real carbon, the demands for a performance-oriented look are also taken into account. The Sport Classic accelerates from zero to 100 with 4, 6 seconds, a tenth of a second faster than the Carrera S. The 911 Sport Classic is only available with a six-speed manual gearbox. Ceramic brakes ensure first-class deceleration. The PASM sports suspension including lowering by 20 millimeters and a mechanical rear differential lock together with the wide track ensure a breathtaking driving experience. Porsche has put a lot of effort into the interior design of the 911 Sport Classic. The dashboard is covered with leather in the color "espresso". This forms an attractive contrast to the exterior paint finish in "sportclassic gray" with dark decorative stripes that are exclusive to all 250 vehicles. Braided leather has seldom become beautiful. It is woven from strips of leather and yarn and is used in the center sections of the sports seats and in the door panels. The legendary Fuchsfelge is still known from the 1960s: black with a silver rim, designed by Porsche and produced by Fuchs. The 19-inch Sport Classic wheel with a high-gloss black painted rim star is a new interpretation and successfully rounds off the car's visual appearance.</p>
+                
+                <p>The vehicle offered here was delivered by the Porsche Center in Stuttgart and is in absolute new condition with a mileage of only 500 kilometers. We are handing over this Porsche 911 Sport Classic to its future owner, including customer service at the Porsche Center in Zuffenhausen. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Below you can see the equipment of the vehicle offered here:</p>
+                
+                <p>Country equipment C00 Germany<br/>
+                    Exterior<br/>
+                    color C1 sport classic gray Roof lining color C1 sport classic gray Body<br/>
+                    color 63A<br/>
+                    Interior 30<br/>
+                    Interior leather espresso<br/>
+                    Interior LE<br/>
+                    number seat combination VAM<br/>
+                    Material seat cushion LET<br/>
+                    Material seat side bolsters LE<br/>
+                    Material seat backs LE<br/>
+                    Carpet color code H31<br/>
+                    900 F Factory collection 911<br/>
+                    XCZ F Short shifter<br/>
+                    022 S Dials instrument cluster black<br/>
+                    025 S DIALS STOPWATCH BLACK<br/>
+                    030 G PASM sports suspension (- 20mm)<br/>
+                    071 C EU COUNTRY VERSION<br/>
+                    098 B LEFT-HAND DRIVE VERSION<br/>
+                    165 C EU 5 EXHAUST CONCEPT<br/>
+                    170 C ACOUSTIC PACKAGE RDW<br/>
+                    182 C HEISSLAND<br/>
+                    196 V BATTERY 80 AH<br/>
+                    199 S BATTERY DISCONNECT SWITCH<br/>
+                    211 C LICENSE PLATE HOLDER DESIGN. III<br/>
+                    220 S Mechanical rear differential lock<br/>
+                    248 G BRIDGEST. N1/MICHELIN N2/PIRELLI N2<br/>
+                    267 S Automatic anti-dazzle interior / exterior mirrors<br/>
+                    268 S RAIN SENSOR<br/>
+                    271 C EXTERIOR MIRROR, ASPH. GLASS DRIVERS.<br/>
+                    288 S HEADLIGHT CLEANING SYSTEM<br/>
+                    335 S 3-PKT. REAR AUTOMATIC BELTS<br/>
+                    342 S Seat heating<br/>
+                    377 S SPORTS SEAT BACK SHELL LH. ELECTR.<br/>
+                    378 S SPORTS SEAT BACK SHELL RIGHT. ELECTR.<br/>
+                    424 S CD SHELF<br/>
+                    426 S WITHOUT REAR WINDOW WIPER<br/>
+                    440 S SCAN ANTENNA DIVERSITY<br/>
+                    450 S Porsche Ceramic Composite Brake (PCCB)<br/>
+                    454 S Cruise control<br/>
+                    465 C REAR FOG LAMP, LEFT<br/>
+                    476 S PORSCHE STABILITY MANAGEMENT (PSM)<br/>
+                    480 G Manual transmission<br/>
+                    482 V Tire pressure monitoring system (TPM)<br/>
+                    488 C LABELS WITH GERMAN INSCRIPTION<br/>
+                    499 C GERMAN VERSION<br/>
+                    507 F EXT. MANUFACTURE OF INTERIOR COMPONENTS<br/>
+                    521 V INCLINE SENSORS<br/>
+                    524 C IMMOBILIZER, CL, 433 MHZ<br/>
+                    534 S Alarm system<br/>
+                    537 S Driver memory 554 S BOW SPOILER LIP INCLUDED<br/>
+                    567 S Windscreen with gray wedge<br/>
+                    571 S ACTIVATED CARBON FILTER (INTERIOR)<br/>
+                    573 S Dyna60LU-5ER Scanic automatic air conditioning<br/>
+                    594 G9 Alcantara S roof lining<br/><br/>
+
+                    605 S LED DAYTIME RUNNING LIGHT<br/>
+                    608 V HomeLink® (garage door opener)<br/>
+                    610 V SOFTWARE NAVIGATION "EUROPE PACKAGE"<br/>
+                    621 S 12V SOCKET (BF FOOTWELL)<br/>
+                    640 V Sport Chrono Package Plus<br/>
+                    652 S WITHOUT SLIDING/LIFT ROOF<br/>
+                    659 S ON-BOARD COMPUTER<br/>
+                    663 S EKPSM (FUEL PUMP CONTROL )<br/>
+                    665 G PCM 3 - BASIC MODULE (INCL. RADIO)<br/>
+                    666 V Telephone module<br/>
+                    672 V Navigation module<br/>
+                    674 V Preparation for vehicle tracking system<br/>
+                    680 S BOSE® surround sound system<br/>
+                    685 G REAR SEATS<br/>
+                    693 V CD/DVD changer, six-fold<br/>
+                    708 S 9X7 FL (CONTROL MNR. F. DEPT. PME)<br/>
+                    709 C CONTROL DEPARTMENT PMA<br/>
+                    756 B SPECIAL MODEL "911 SPORT CLASSIC"<br/>
+                    841 S 3-spoke sports steering wheel, smooth leather<br/>
+                    870 V Universal audio interface<br/>
+                    981 S LEATHER EQUIPMENT (WITHOUT SEAT COVER)<br/>
+                    991 S AIRBAG MODULE IN LEATHER<br/>
+                    998 S Leather upholstery in natural leather<br/>
+                    X51 S Performance upgrade Carrera S<br/>
+                    X97 S Gear lever aluminum<br/>
+                    X98 S HANDBRAKE LEVER ALU/LEATHER<br/>
+                    XAJ S Sill panels painted<br/>
+                    XAS S SportDesign front panel XES S preparation<br/>
+                    for door sill guards, illuminated<br/>
+                    XMZ S rear center console leather<br/>
+                    XN3 S AIR SIDE NOZZLE INSTRUMENT BR. LEATHER<br/>
+                    XNG S Frame Instrument cluster Leather<br/>
+                    XNS S Steering column trim Leather<br/>
+                    XRS G 19-inch Sport Classic wheel<br/>
+                    XSB S Sport seat backrests Leather<br/>
+                    XSH S Seat belts, silver gray<br/>
+                    XTG S Sill panel inside, leather<br/>
+                    XTV S Interior add-on package, door panel , leather XUX S Release lever, rear seat backrests, leather<br/>
+                    XV1 S Defroster panel, leather<br/>
+                    XVM S CENTER NOZZLE, LEATHER<br/>
+                    XVP S Trim panel for dash panel, leather<br/>
+                    XVT S Covers for speakers, doors and rear, leather<br/>
+                    XVY S Coat hook, seat backrest, leather<br/>
+                    XXG S Rear lights in clear glass look XXH S SUN VISORS ALCANTARA<br/>
+                    XXJ S COVER INTERIOR LIGHT ALCANTARA XXK S SEAT COVER<br/>
+                    FRONT. FLL (BRAIDED LEATHER)<br/>
+                    XXL S SEAT COVER HI. FL (BRAIDED LEATHER)<br/>
+                    XXZ S footrest in sports look 09971 CT installation</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

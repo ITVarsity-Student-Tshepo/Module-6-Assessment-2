@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: darkgrey;
+}
+
+#logo{	
+    position: fixed;
+    display: block;
+    top     : 0;
+    left    : 0;
+    z-index : 500;
+    width   :100%;
+}
+
+#logo img{
+    display: block;
+    width: 100%;
+	height : 145px;
+}
+
+#menu{
+    padding-top: 145px;
+    background-color: maroon;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100px;
+    color: black;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: lightcoral;
+}
+
+#header{
+    padding: 60px 0px 40px 0px;
+    background-color: darkgrey;
+    text-align: center;
+    background-image  : url('images/skid-mark.png');	
+    background-size: contain;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: white;
+    margin-top: 40.50px;
+    margin-left: 18px;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: white;
+    margin-top: 33px;
+    margin-left: 540px;
+}
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 400px;
+}
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h1{
+    color: azure;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: maroon;
+}
+
+#page h4{
+    color: maroon;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#page p{
+    color: black;
+}
+
+#page li{
+    color: black;
+}
+
+#page form{
+    color: black;
+}
+
+#content{
+    width: 70%;
+    float: left;
+}
+
+#sidebar{
+    width: 25%;
+    float: right;
+    color: black;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#sidebar h2{
+    color: maroon;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#sidebar img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#sidebar img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: darkgray;
+    padding-top: 25px;
+    padding-left:   22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: maroon;
+}
+
+#footer p{
+    color: black;
+}
+
+#footer a{
+    color: black;
+}
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px white;
+    padding: 14px 0px;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box1 a{
+    text-decoration: none;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2 a{
+    text-decoration: none;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.button{
+    display : block;
+    width: 30%;
+    background-color: maroon;
+    text-decoration : none;
+    text-align: center;
+    color       : white;
+    font-size   : 15px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+
+#button{
+    display : block;
+    background-color: maroon;
+    text-decoration : none;
+    text-align: center;
+    font-size   : 15px;
+    font-weight : 600;
+    color       : white;
+}
+
+.manubtn{
+    display : block;
+    width: 50%;
+    background-color: maroon;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+    float: left;
+}
+
+.numbtn{
+    display : block;
+    width: 11%;
+    background-color: maroon;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin: 0 auto;
+    padding : 8px 0;
+    float: left;
+}
+
+.butn controls{
+    padding-bottom: 5px;
+}
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: maroon;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+td{
+    border-top: 1px solid white;
+}

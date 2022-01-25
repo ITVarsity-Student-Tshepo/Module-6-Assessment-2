@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>MERCEDES-BENZ W 113 280 SL ROADSTER</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Mechatronic full restoration</li>
+                    <li>5,700 KM mileage since restoration</li>
+                    <li>Including hardtop</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1969</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>DB 930 blue metallic</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>118 Leather Dark Blue</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>5,700 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>170 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€239 000</td>
+                    </tr>
+                </table>
+                
+                <p>The Geneva Motor Show in March 1963 was the scene of a remarkable and widely acclaimed premiere: With the 230 SL, Daimler-Benz presented a new sports car that was to replace two models from the previous sales program. The newcomer had to accept a difficult inheritance - and not only because its two predecessors, the 190 SL and the 300 SL, had been extremely popular and successful from the start and the 300 SL had become a legend in its lifetime. Much more serious was the fact that both types, despite their family resemblance, represented fundamentally different vehicle concepts that were difficult to reconcile.</p>
+                
+                <p>With the new model, a middle ground was taken, so to speak: the 230 SL, known internally as the W 113, was neither an uncompromisingly tough roadster nor a gentle tabloid sports car, but rather a comfortable, two-seater touring car with high performance and optimum driving safety. Apart from the wheelbase - the magical value of 2400 mm was retained unchanged - the new SL had practically nothing in common with its two predecessors. Nevertheless, the W 113 was not a completely new design, as its technical concept largely corresponded to that of the 220 SE; For example, the shortened and reinforced frame floor system of the tail fin limousines including front and rear wheel suspension was used. The engine was also developed from the 2.2 liter unit of the 220 SE; by drilling to 2.3 liters, Increasing the compression and using a six-piston injection pump enabled the power to be increased to 150 hp. In addition to the standard 4-speed manual transmission, a 4-speed automatic transmission was available as an option for the first time in an SL model. In May 1966, a 5-speed manual transmission was added as a third variant, sourced from the gear factory in Friedrichshafen (ZF).</p>
+                
+                <p>The 230 SL was the first sports car to have a safety body with a rigid passenger cell and deformable front and rear sections; This was made possible by design principles developed by Béla Barényi and implemented for the first time in the tail fin limousines. In contrast to these externally imperceptible design elements, the characteristic design feature of the body could not be overlooked: on the 230 SL, the removable coupé roof was concave, ie curved inwards. This avant-garde design, which was unusual at the time and not only met with unanimous approval, was by no means an end in itself, but can be seen as a classic example of the designer maxim "form follows function". Going back to works by Béla Barényi, the so-called pagoda shape enabled the roof to be particularly strong despite its lightweight construction; In addition, it ensured easy entry and improved visibility through the large side windows. Like its predecessors, the 230 SL was available in three versions: as a roadster with a folding top, as a coupé with a removable roof and as a coupé with a removable roof and roadster top. All three variants were optionally available with a transverse seat in the rear. On February 27, 1967, the 250 SL was presented to the public, replacing the 230 SL that had been in production for four years. Like its predecessors, the 230 SL was available in three versions: as a roadster with a folding top, as a coupé with a removable roof and as a coupé with a removable roof and roadster top. All three variants were optionally available with a transverse seat in the rear. On February 27, 1967, the 250 SL was presented to the public, replacing the 230 SL that had been in production for four years. Like its predecessors, the 230 SL was available in three versions: as a roadster with a folding top, as a coupé with a removable roof and as a coupé with a removable roof and roadster top. All three variants were optionally available with a transverse seat in the rear. On February 27, 1967, the 250 SL was presented to the public, replacing the 230 SL that had been in production for four years.</p>
+                
+                <p>Less than a year after its presentation, the 250 SL was already replaced by a new model, the 280 SL. In the course of the market launch of the new middle-class models, not only the saloons, coupés and cabriolets of the luxury class, but also the SL were given a 2.8-liter engine. The engine variant used in the 280 SL mobilized 10 hp more than the basic version of the 280 SE thanks to a camshaft with modified valve timing. Compared to the 250 SL, the output was increased by 20 hp and the torque by 10%. Externally, apart from the type plate, the 280 SL could only be distinguished from its two predecessor models by the modified wheel covers.</p>
+                
+                <p>The vehicle offered here was discovered by the company Mechatronik in October 2010 in the USA and imported back to Germany. The condition at that time only allowed for a full restoration, which began in spring 2011. This pagoda was restored to the highest quality standards in over 2,500 hours of work and was completed in June 2012. Extensive documentation on this is of course available. In the following two years, the 280 SL was presented in our showroom and at various trade fairs as a reference vehicle before it was finally sold to a Mercedes-Benz enthusiast in the Stuttgart region in spring 2014. He only moved his pagoda on special occasions and consistently entrusted his vehicle to our company for all service work. So it's not surprising that even after more than 7 years since completion, this 280 SL Roadster can still be described as absolutely new and is now for sale in optically and technically in absolutely flawless condition. For detailed questions, please contact our sales staff at any time. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

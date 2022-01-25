@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>BRABUS 800 EV12</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/BRABUS%20800%20EV121.jpg" style="width:100%">
+                            <img class="sideshow" src="images/BRABUS%20800%20EV122.jpg" style="width:100%">
+                            <img class="sideshow" src="images/BRABUS%20800%20EV123.jpg" style="width:100%">
+                            <img class="sideshow" src="images/BRABUS%20800%20EV124.jpg" style="width:100%">
+                            <img class="sideshow" src="images/BRABUS%20800%20EV125.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Rare Brabus 800 EV12</li>
+                    <li>Up to 370 km/h top speed</li>
+                    <li>Including new service and TÜV</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>2009</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather | Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>18,790 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>800 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€199 900</td>
+                    </tr>
+                </table>
+                
+                <p>The BRABUS E V12 launched the fourth generation of the unique high-performance sedan based on the current Mercedes E-Class at the IAA 2009. The limited and now sold-out edition is not only defined by its 800 hp / 588 kW BRABUS SV12 R Biturbo 800 twelve-cylinder displacement engine, which makes the car more than 370 km/h fast. BRABUS is accredited as an automobile manufacturer by the German Federal Motor Transport Authority and built the E V12 on the basis of a thoroughly reinforced body of the current Mercedes E-Class sedan. The centerpiece is the SV12 R Biturbo 800 Evolution of the proven BRABUS SV12 Biturbo displacement engine, which optimally utilizes the space in the modified engine compartment of the E-Class. Previously, the displacement of the twelve-cylinder engine from the current Mercedes 600 models was increased from the standard 5, 5 expanded to 6.3 liters displacement. A special crankshaft with a longer stroke, finely balanced connecting rods and pistons with a larger diameter and larger cylinder bores are used for this purpose. In addition, sports camshafts are installed and the two cylinder heads are finely machined. A completely new development was the air intake and the BRABUS twin turbo system, each with two special manifolds with integrated turbine housings and high-performance chargers as well as four water-cooled intercoolers. Fresh air is drawn in by a carbon fiber RAM-Air intake system integrated into the bonnet with two air intakes. A high-performance stainless steel exhaust system with high-throughput metal catalytic converters was specially made for the floor pan of the E-Class. All high-performance components were coordinated by the newly programmed engine electronics with special maps for injection and ignition. This results not only in the enormous performance potential, but also in emission values but also in accordance with the EURO IV emission standard.  The high-tech lubricants for the entire drive train come from technology partner ARAL. The BRABUS E V12 biturbo engine produces a peak output of 800 hp / 588 kW at 5,500 rpm and an even more impressive maximum torque of 1,420 Nm, which is already available from 2,100 rpm. In the car, this value is electronically limited to 1,100 Nm. The power transmission to the rear wheels is the task of the five-speed automatic transmission tuned to the performance potential and the BRABUS high-performance differential with 40 percent locking effect.</p>
+                
+                <p>The vehicle offered here was registered to Brabus Service GmbH on May 7, 2009 with the registration number BOT-EV12. The car remained in the possession of Brabus for the next five years and was presented as an exhibition vehicle at various trade fairs. Almost exactly 5 years after the first registration, on May 5th, 2014, the only and last change of ownership to date to the license plate S-EV800 took place. However, the new owner, a passionate collector and good customer of our company, was not able to enjoy his new vehicle for too long because our in-house collection management also became aware of the car. And so it happened that the Mechatronik company purchased the car in July of the same year and exhibited it in its in-house collection, where the vehicle has remained to this day. Of course, we hand over this rare collector's item to its new owner with a great service and fresh TÜV. Please note that vehicle inspections are generally only possible by prior appointment. </p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

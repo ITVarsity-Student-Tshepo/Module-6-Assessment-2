@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>MERCEDES-BENZ W100 600 PULLMAN ONE OF ONE</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W100%20600%20PULLMAN1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W100%20600%20PULLMAN2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W100%20600%20PULLMAN3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W100%20600%20PULLMAN4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20W100%20600%20PULLMAN5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Absolute one-off</li>
+                    <li>Fully restored and customized by Mercedes-Benz Classic</li>
+                    <li>Elaborate special conversion including panorama roof</li>
+                    <li>Fully-fledged Maybach interior</li>
+                    <li>Extensive Mercedes-Benz Classic documentation</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1975</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Pearly White</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Maybach AA51 garnet red leather</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>1,200 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>250 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€2 320 500</td>
+                    </tr>
+                </table>
+                
+                <p>The presentation of the Type 600 at the Frankfurt Motor Show in September 1963 was a real sensation. Conceived as an exclusive representation vehicle for the highest demands, the new top model was equipped as standard with special technical features that were unique overall and represented the state of the art at the time. For the first time at Daimler-Benz, a V8 injection engine was used as the drive unit, which mobilized a maximum output of 250 hp and a maximum torque of 51 mkg from a displacement of 6.3 l. In conjunction with the automatic transmission installed as standard, the driving performance of a sports car was achieved; the 600, which weighed almost two and a half tons, reached a top speed of over 205 km/h and could be accelerated from 0 to 100 km/h in 10 seconds. The shock absorbers, which can be adjusted from the steering column while driving, and the dual-circuit brake system with air pressure support ensure maximum driving safety. All four wheels had disc brakes, with the front wheels each having two brake calipers. The rich basic equipment of the 600, which included air suspension, power steering and central locking, as well as an electronically controlled heating and ventilation system, ensured maximum operating and driving comfort. A unique comfort hydraulics enabled the automatic handling of the following functions: horizontal and vertical adjustment of the front seats and adjustment of the backrest angle, adjustment of the rear seat bench in the longitudinal direction, opening and closing of the car doors, the trunk lid and the optionally available sunroof as well as opening and closing the side windows. Series production of the "Big Mercedes" began in September 1964. In addition to the five- to six-seater sedan with a wheelbase of 3200 mm, three seven- to eight-seater Pullman variants with a wheelbase of 3900 mm were offered: a four-door Pullman sedan with rear seats in vis-à- vis arrangement, a six-door Pullman sedan with a bench seat in the rear and additional folding seats in the direction of travel, and a Pullman landaulet. The latter was available in four different versions. The standard version had four doors, rear seats in a face-to-face arrangement and a soft top that reached to the front edge of the rear doors. A six-door version with a bench seat in the rear and additional folding seats in the direction of travel was available as a special version. In this variant, as in the six-door Pullman sedan, the middle doors could also be designed without door handles. Both landaulets, four-door and six-door variants, were made
+                equipped with a long top that reached to the center wall on special request. With this large number of available body designs, the options were not exhausted. With regard to paintwork, interior fittings and special installations, the most diverse individual customer requests could be implemented, so that - especially with the Pullman limousines and landaulets - there are hardly two copies with the same equipment.</p>
+                
+                <p>About the vehicle offered here:</p>
+                
+                <p>This 600 Pullman was delivered to Lebanon in 1975 in Mercedes-Benz 172 (anthracite gray metallic) and trim level 205 (blue leather). Mercedes-Benz Classic acquired the vehicle in February 2007 in Malaga, where it has been since 1997. After the purchase in 2007, Mercedes-Benz Classic immediately began a restoration that was unique to date. The vehicle was completely dismantled at the customer's request and, once the restoration was complete, was intended to represent a special balance between the historic Mercedes-Benz 600 Pullman and the comfort of the then current Maybach series. The body was completely rebuilt and then painted in mother-of-pearl white by Mercedes-Benz in Untertürkheim. The powertrain, i.e. engine, transmission and axles, was completely overhauled and the chassis was renewed for the next phase of the vehicle's life. The vehicle received a unique interior that combines the historic with the modern. Various components were specially made or taken from the Maybach series, such as the Maybach glass roof. The outer panorama roof was specially made for the roof line and shape of the 600 Pullman, the inner glass pane comes from the Maybach series. Like the partition between the driver's seat and the rear seats, this can be transformed into a frosted glass pane at the push of a button. The flat screen was taken from the Mercedes-Benz S-Class W221 Pullman and, thanks to Alpine technology, enables both analogue and digital (DVBT) reception. In addition, two separately functioning navigation devices – which also enable precise location determination in the rear area – were installed. There is also a laptop interface in the center console and a DVD player. The entire entertainment equipment is controlled via a readable data bus in the trunk of the vehicle. Two original, hydraulically adjustable seats, which are visually in the design of the Maybach series, ensure comfort in the rear. Between the seats are the original cool box, the folding tables and the champagne flute holders from Maybach. For special occasions, a journey with six people is possible thanks to two additional seats. Illuminated cosmetic mirrors for the driver and front passenger were installed in the driver's area. The air conditioning in the vehicle has been optimized so that even driving in hot countries is possible. The intercom system from the Mercedes-Benz S-Class W221 Pullman was installed for communication between driver and passenger. A reversing camera and a front camera were installed to make parking this representative vehicle easier. The piping on the door sills was set with Swarovski diamonds both at the front and at the back. The door entry was decorated with illuminated Mercedes-Benz lettering made of stainless steel panels. The vehicle has standard brackets on the front fenders for representation trips. They can be covered with custom-made chrome panels. There is no comparable vehicle that has been restored by Mercedes-Benz with such effort and precision. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

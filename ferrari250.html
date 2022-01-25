@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>FERRARI 250 GT BERLINETTA LUSSO</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Certified by Ferrari Classiche</li>
+                    <li>The 42nd of only 350 vehicles ever built</li>
+                    <li>Matching Numbers</li>
+                    <li>Fully restored by Ferrari expert Talacrest</li>
+                    <li>Extensive documentation</li>
+                    <li>Italian extradition</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1963</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Nero</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather Rosso 3171</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>62,100 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>240 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€1 949 000</td>
+                    </tr>
+                </table>
+                
+                <p>The 250 GT Berlinetta Lusso, which made its debut at the Paris Motor Show in 1962, was the last model in the 250 GT series in pure road car form and was produced until late 1964 - a total of 350 times. It was the direct descendant of the 250 GT Coupé. Although there was also a 'Lusso' road version of the 250 GT 'passo corto' Berlinetta, this one offered neither interior nor luggage space to excess. The design from Pininfarina (series cars were manufactured by Scaglietti in Modena) was immediately praised by all sides. At the front of the car was a low-slung, oval grille similar to that of the 250 GT 'SWB' Berlinetta. The car had three-piece bumpers with a horizontal chrome bar under the grille and small pieces of chrome at each end, lying under the headlights. Next to it were the round driving lights. The front fenders were gently curved and sloped slightly towards the rear, which brought the rear side windows to a point. The tail itself was a so-called Kamm tail with a small aerodynamic lip. The chassis layout was similar to that of the 250 GT 'passo corto' Berlinetta: two large, oval, longitudinal members with diagonal braces, with the engine mounted further forward on the frame to gain space for the interior. Like the other models, this one was available with left- and right-hand drive. But the design of the mechanical components such as suspension, brakes and steering was similar to that of the other models. The engine was a derivative of the Colombo-designed 3-litre, short-block, single-overhead-cam V12 powerplant and was factory designated 168/U. The spark plugs were on the outside of the V. The displacement was 2,953 ccm, bore and stroke of 73 and 58.8 millimeters respectively. An output of 240 hp was specified by three Weber 36 DCS twin carburettors, with twin spool and behind the engine mounted manifold starter system. The power unit was connected to a 4-speed synchromesh gearbox with reverse gear. The final drive ran through a cardan shaft to the rigid rear axle, with two different gear ratios being available. The prototype of the series, chassis 3849GT, was presented at the Paris Motor Show and was also listed in the sales catalogue. This featured a small bar in the air intake on the bonnet, 250 GT 2+2 style door handles, no running lights, round separate reflectors, and rear and turn signal lights in the rear. The production cars featured a grille on the air intake and had large round units at the rear with integrated taillights/indicators/reflectors. This design was also used in the 275 GTB model series of berlinettas. At the rear, the car had a continuous chrome bumper. Just above it was the license plate light. The interior was a 5-pane design with narrow pillars and a large, curved rear window that merged into the trunk cover at a shallow angle. The overall design was extraordinarily elegant,</p>
+                
+                <p>The vehicle offered here was completed on July 26, 1963 and sold on October 2 of the same year to its first owner, Mr. Copola from Genoa. The price was 5,750,000 lire. The car was delivered and registered just a few days later on October 7th. The registration number was GE210900. After only 2 months, on December 5, 1963, the first change of ownership took place. The new owner, Giuseppe Colombo, acquires the car, which is still in mint condition, and registers it on January 15, 1964 at his residence in Lecco, on Lake Como with number plate CO133323. The 250 GT Lusso remained in the possession of Mr. Colombo for the next five years, until he decided in November 1969 to sell the car to Gian Paolo Sghedoni. He registers the car in Modena in November. The car stayed with its third owner until the late 1970s. This is followed by the sale to Vancouver in Canada. After 8 years in Canada, the 250 GT was sold to a collector in Seattle, Washington State, USA in the spring of 1987. He delivered the car to the Chrisites auction in Monaco on May 22, 1990, but no sale took place there. Later in 1990 the owner changed and the Ferrari 250 GT Lusso found its way into the collection of the Austrian Baron Dr. Franz Mayr-Melnhof-Saurau V a new home. Two years later, the owner decided to subject the car, which was still in its original condition, to an extensive restoration. For this he turns to the world-renowned Ferrari experts Talacrest Ltd. in England, who will fully restore the car to the highest standard over the next two years. Extensive documentation provides detailed information on this. After completion of the work, the 250 GT will be delivered back to Austria and sold to a well-known private banker in Vienna. The vehicle remains in his possession for more than 20 years. In May 2014, the Viennese owner sold the Ferrari to a well-known German Ferrari collector through a local dealer. Since that time, the vehicle has been part of a large collection and is now being offered for sale again for the first time. After completion of the work, the 250 GT will be delivered back to Austria and sold to a well-known private banker in Vienna. The vehicle remains in his possession for more than 20 years. In May 2014, the Viennese owner sold the Ferrari to a well-known German Ferrari collector through a local dealer. Since that time, the vehicle has been part of a large collection and is now being offered for sale again for the first time. After completion of the work, the 250 GT will be delivered back to Austria and sold to a well-known private banker in Vienna. The vehicle remains in his possession for more than 20 years. In May 2014, the Viennese owner sold the Ferrari to a well-known German Ferrari collector through a local dealer. Since that time, the vehicle has been part of a large collection and is now being offered for sale again for the first time.</p>
+                
+                <p>Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. </p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

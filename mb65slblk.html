@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>MERCEDES-BENZ SL65 AMG BLACK SERIES</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20SL65%20AMG%20BLACK%20SERIES1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20SL65%20AMG%20BLACK%20SERIES2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20SL65%20AMG%20BLACK%20SERIES3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20SL65%20AMG%20BLACK%20SERIES4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20SL65%20AMG%20BLACK%20SERIES5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>One of only 350 vehicles ever built</li>
+                    <li>Only 3,950 KM mileage</li>
+                    <li>From first owner</li>
+                    <li>New car condition</li>
+                    <li>Collector vehicle</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>2008</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>792U palladium silver metallic</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>531A Leather Exclusive Black | Anthracite</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>3,950 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>670 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€476 000</td>
+                    </tr>
+                </table>
+                
+                <p>Large cooling air openings in the front apron and in the bonnet give a clear indication of the enormous performance of the AMG twelve-cylinder biturbo engine. The AMG V12 draws a maximum output of 493 kW/670 hp at 5400 rpm and an electronically limited torque of 1000 Newton meters between 2200 and 4200 rpm from 5980 cc. The AMG 6.0-litre V12 biturbo engine, which is handcrafted in the AMG engine factory according to the traditional "One man - one engine" philosophy, would achieve a maximum torque of 1200 Newton meters without a limit. Compared to the basic engine of the SL 65 AMG with 450 kW/612 hp, the twelve-cylinder engine of the SL 65 AMG Black Seriesthe turbochargers newly developed. The spiral cross-section of the charger, which has been increased by twelve percent, as well as optimized wastegate ducts enable higher air throughput and even more impressive power development in all engine speed ranges. The modified intake air routing results in an even more spontaneous response. Newly designed rear silencers of the AMG sports exhaust system reduce exhaust back pressure and help to increase performance. Acoustic side effect: A distinctive twelve-cylinder sound escapes from two trapezoidal tailpipes in typical AMG emotional tuning. The low-temperature intercooler, which is 30 percent more efficient, not only enables maximum power output in highly dynamic driving situations, but also ensures the greatest possible stability at high outside temperatures. The optimized water cooling with repositioned water cooler, powerful suction fan and large ventilation openings in the bonnet also take this into account. The attractive power-to-weight ratio of only 2.79 kg/hp is also responsible for the high dynamics – it results from the comparatively low curb weight of 1870 kg according to the EC standard. That completes the SL 65 AMGBlackSeries250 kilograms lighter than the SL 65 AMG – a respectable weight saving that can be attributed to targeted lightweight construction measures. Numerous body components are made of high-strength and particularly light carbon fiber composite material (CFRP), a technology that has been tried and tested in motorsport. Both the front fenders, which are 14 centimeters wider, the front apron with the front splitter made of visible carbon, the bonnet and the boot lid are made of CFRP. The complete CFRP roof skin presents itself in a completely new design: It not only has an integrated roll bar – the roof line is significantly flatter due to the omission of the typical SL vario roof. This is also evident when looking at the larger rear window, which runs at a flatter angle to the trunk lid. The integrated CFRP rear wing automatically extends by twelve centimeters from a speed of 120 and increases the downforce on the rear axle by 50 kilograms at 200 km/h. Viewed from behind, the new rear apron with a diffuser insert in visible carbon is striking: the active cooling of the rear axle locking differential is integrated into it. New, weight-optimized AMG forged wheels in a double-spoke design – 19 inches at the front and 20 inches at the rear – impressively fill out the wheel arches. With their black paintwork, the high-sheen surface and the matt finish, they give the side profile an extravagant touch. Nappa leather, Alcantara and carbon: the interior of the SL 65 AMG Viewed from behind, the new rear apron with a diffuser insert in visible carbon is striking: the active cooling of the rear axle locking differential is integrated into it. New, weight-optimized AMG forged wheels in a double-spoke design – 19 inches at the front and 20 inches at the rear – impressively fill out the wheel arches. With their black paintwork, the high-sheen surface and the matt finish, they give the side profile an extravagant touch. Nappa leather, Alcantara and carbon: the interior of the SL 65 AMG Viewed from behind, the new rear apron with a diffuser insert in visible carbon is striking: the active cooling of the rear axle locking differential is integrated into it. New, weight-optimized AMG forged wheels in a double-spoke design – 19 inches at the front and 20 inches at the rear – impressively fill out the wheel arches. With their black paintwork, the high-sheen surface and the matt finish, they give the side profile an extravagant touch. Nappa leather, Alcantara and carbon: the interior of the SL 65 AMG The high-sheen surface and the matt finish give the side profile an extravagant touch. Nappa leather, Alcantara and carbon: the interior of the SL 65 AMG The high-sheen surface and the matt finish give the side profile an extravagant touch. Nappa leather, Alcantara and carbon: the interior of the SL 65 AMGBlack Series offers the perfect ambience to make the hearts of sports car enthusiasts beat faster. The interior, which is completely black, exudes the functional atmosphere of a real racing vehicle and at the same time impresses with lovingly designed details. Newly developed CFRP AMG sports bucket seats give the occupants perfect lateral support when cornering at high speed. The seats without sidebags are upholstered in fine, black nappa leather and anthracite Alcantara and feature embossed AMG lettering on the headrests. With a diameter reduced by 15 millimeters and equipped with a perforated grip area on the side, the flat-bottomed AMG performance steering wheel offers optimal vehicle control. Silver-colored aluminum shift paddles allow manual gear selection.</p>
+                
+                <p>The vehicle offered here was handed over to an Asian collector on October 10, 2008 as one of the first SL65 Black Series delivered in Berlin, who exhibited the car almost exclusively and unused in his private collection until the time of the sale in 2021. And so the mileage shows today, more than 12 years after delivery, only 3,950 kilometers. Accordingly, the car is presented in almost new condition in its entirety. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. Below you will find the data card of the vehicle offered here:</p>
+                
+                <p>202B Owner's Manual U.Wrichtungsumt-German 229L<br/>
+                    Germany<br/>
+                    249 indoor and exterior mirrors automatically dimmable<br/>
+                    255B No code designation available<br/>
+                    260b Airbagschild - German / English<br/>
+                    281 AMG-Performance Steering wheel 2xXL Federal<br/>
+                    Republic of Germany<br/>
+                    332B Language Kombi instrument /<br/>
+                    Hu - German 360B Note sign Battery - German<br/>
+                    386 Universal TELEPHONE PACKAGE<br/>
+                    423 AUTOMATIC 5- SPEED TRANSMISSION<br/>
+                    512 COMAND APS WITH DVD CHANGER<br/>
+                    518 UNIVERSAL COMMUNICATION INTERFACE (UCI)<br/>
+                    530A LEATHER EXCLUSIVE<br/>
+                    531A LEATHER EXCLUSIVE - BLACK / ANTHRACITE<br/>
+                    581 AUTOMATIC CLIMATE CONTROL<br/>
+                    614 BI-XENON HEADLIGHTS RIGHT-HAND TRAFFIC<br/>
+                    63V SPEED + LOADINDEX 98Y XL+102Y<br/>
+                    765 AMG SPOKE WHEELS 19" / 20" WITH MIXED<br/>
+                    TIRES 792U PALLADIUM SILVER - METALLIC PAINT<br/>
+                    809 *2 MODEL YEAR CHANGE<br/>
+                    810 SOUND SYSTEM PREMIUM<br/>
+                    882 SENSORS AND SIREN THEFT ALARM SYSTEM<br/>
+                    889 KEYLESS - GO<br/>
+                    985 COC-PAPER EURO 4 TECHNOLOGY WITH PERMIT. PART II<br/>
+                    F230 SERIES 230<br/>
+                    GA TRANSMISSION AUTOMATIC<br/>
+                    H73 TRIM - CARBON HIGH GLOSS RA REAR AXLE<br/>
+                    K11 ADAPTIVE FLASHING BRAKE LIGHT<br/>
+                    K15 CONTROL CODE FOR 15000 KM SERVICE INTERVAL<br/>
+                    L LEFT-HAND DRIVE<br/>
+                    M275 V12 GASOLINE ENGINE M275 BI-TURBO<br/>
+                    M60 DISPLACEMENT 6.0 LITER<br/>
+                    N91 CONTROL CODE FACTORY BREMEN<br/>
+                    N99 CONTROL CODE FACTORY BREMEN<br/>
+                    P99 SPECIAL MODEL "AMG SIGNATURE SERIES/BLACK SERIES"<br/>
+                    R01 SUMMER TIRES<br/>
+                    U26 FLOOR MATS - AMG<br/>
+                    U72 DVD PLAYER WITH REGIONAL CODE 2 EUROPE,JAPAN</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

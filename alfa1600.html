@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Extremely rare GTA 1600 Corsa</li>
+                    <li>Fully restored and ready to race</li>
+                    <li>One of the most legendary racing cars of the 1960s</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1969</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Blue</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Alcantara | Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>-</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>170 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€299 000</td>
+                    </tr>
+                </table>
+                
+                <p>The Alfa Romeo GTA was a sporty GT that Alfa Romeo built from 1965 to 1975 in the Alfa Romeo Giulia Sprint GTA 1600 and Alfa Romeo GTA 1300 Junior versions as a homologation model for racing. 500 pieces each were produced. The abbreviation GTA, which the manufacturer has used several times throughout history, stands for Gran Turismo Alleggerita. Alleggerita means "Relieved". That means consistent lightweight construction with the aim of achieving success in touring car racing. By using aluminum alloys and a spartan interior fittings, it was possible to save around 200 kg on an unladen weight of 760 kg compared to the series. The visible body panels were made of Peraluman and attached to the steel substructure with rivets.</p>
+                
+                <p>The Alfa Romeo Sprint GTA for sale here was completed on February 19, 1969 and delivered to Germany on June 17 before being sold to amateur racing driver Bernd Fischer, who had his race cars prepared by Mannheim Alfa Romeo dealer Helmut Hähn . Chassis 848003, which is offered here, was named in Tony Adriensen's GTA book, Alleggerita, as a participant in the AvD / ACS Hockenheim race on August 25, 1973. Driven by Bernd Fischer and entered by Alfa Romeo Hähn, a 3rd place in the class could be achieved. Also in the Alleggerita book, another competition was noted in March 1974 at the Ludwigshafen Auto and Motorbike Salon, in which the starting number 389 was worn by Alfa Romeo Hähn. There are two pictures from this event showing chassis 848003 in the paddock. At the race in Ludwigshafen, the GTA unfortunately failed with engine problems. Mr. Michael Heine, an enthusiastic lover and connoisseur of Alfa Romeo Giulia Sprint GTA's, who also wrote a book about those vehicles, bought the vehicle while still on the race track from Bernd Fischer. During his ownership Mr. Heine overhauled the engine and kept the car in his collection until 2005. Now he saw the time to sell his GTA. At this point the car was still in its original competition livery. The next owner of the GTA was Mr. Frank Strothe, who brought the car to Stein Sportwagenservice for a mechanical restoration. After this was completed, Strothe competed in various historic racing events across Europe, including Spa-Francorchamps. For these events he had the Alfa professionally prepared by Marcus Niestrath from Romeo Racing. The fourth owner of chassis 848003 was Mr. Peter Praller who bought the car in 2012. Praller, known for his company, Formula GT, soon sold the car to a collector who spared no expense in order to use the well-maintained Alfa in various events in Europe, including Hockenheim and Monza. The Formula GT company in Munich took over this service throughout. to use the Alfa always well maintained in various events in Europe, including Hockenheim and Monza. The Formula GT company in Munich took over this service throughout. to use the Alfa always well maintained in various events in Europe, including Hockenheim and Monza. The Formula GT company in Munich took over this service throughout.</p>
+                
+                <p>Today, this GTA is in excellent condition, both optically and technically, ready to be used in historic racing events. One of the most legendary racing cars of the 1960s, which enjoyed great success at international level with just 501 examples built worldwide, the GTA is still one of the most sought-after models from this historic marque. As at that time, the GTA is one of the most versatile competition cars, suitable for the Tour de Auto, the 6h of Spa or the U2TC series. This vehicle offers the next owner a fantastic opportunity to compete in a variety of events and drive to victory. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

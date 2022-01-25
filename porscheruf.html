@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>PORSCHE 993 CARRERA RS RUF TURBO R</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Original Porsche 993 RS</li>
+                    <li>Elaborate RUF Turbo R upgrade</li>
+                    <li>Ultimate driving performance</li>
+                    <li>Incl. new service & TÜV</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Red</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather | Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>64,000 KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>490 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€449 000</td>
+                    </tr>
+                </table>
+                
+                <p>One thing is certain, and not only for fans of the Zuffenhausen sports car: the fourth generation of the 911, the Type 993, is one of the most desirable versions in the history of this classic. Although practically only the roof line remains unchanged, the new model from 1993 inspires with an exciting interpretation of the 911 design DNA. The organic interplay of concave and convex shapes, integrated bumpers and flush-mounted windows as well as the wide rear end with its angled light strip inspire almost every sports car fan. Even the flatter front fenders, made possible by new polyellipsoid headlights, quickly find broad acceptance. The 993 also underscores its exceptional position in the sports car segment in terms of technology – for example with the completely redesigned aluminum LSA chassis. It combines lightweight construction, stability and agility. To this day, the multi-link suspension is considered the ultimate development stage of the "Weissach" rear axle, which made history with its self-steering properties. The result: even more driving dynamics and further improved suspension comfort. The new generation also sets standards when it comes to drive: the 911 Turbo with standard all-wheel drive uses two turbochargers in 1995. The yield: 408 hp. At the same time, the 3.6-liter biturbo impresses with the lowest exhaust emissions of all series engines of its time. In the rear of the two-wheel drive 911 GT2, which is limited to 100 units, it even delivers up to 450 hp. Initially, Porsche only offered the 993 as a coupe and cabriolet. The Targa only made its debut in 1995, but with a new concept: Instead of a removable roof section, it has a large glass roof that can be lowered electrically under the rear window. There is also another body variant as a series model: the all-wheel drive Carrera 4S – followed shortly afterwards by the Carrera S – combines the wide body and chassis of the 911 Turbo. Only the rear wing remains outside. The six-cylinder boxer provides another reason why the 993 is so popular with collectors and fans of this series: As the last 911 unit, it relies on classic air cooling. Initially 272 hp, the two-valve engine – again equipped with a double ignition – already delivered 285 hp from 1995. On request, Porsche will provide a 300 hp variant. The manual transmission is also new: In order to cover the speed range, which now extends to more than 270 km/h, without curtailing the engine's power development with a long gear ratio, it is given a sixth forward gear. In addition, it can be switched even more precisely. Putting everything on one card with the 911, type 993, ultimately pays off for Porsche. With the fourth generation of the cult sports car, the chapter of air-cooled engines in this unique model history ends in 1998 after 68,881 vehicles have been produced. After 35 years, the second epoch begins. It is the beginning of an unprecedentedly successful time. For the 911. And for Porsche. Between 1993 and 1998, Porsche produced a total of 68,881 Type 993 vehicles. Putting everything on one card pays off for Porsche in the end. With the fourth generation of the cult sports car, the chapter of air-cooled engines in this unique model history ends in 1998 after 68,881 vehicles have been produced. After 35 years, the second epoch begins. It is the beginning of an unprecedentedly successful time. For the 911. And for Porsche. Between 1993 and 1998, Porsche produced a total of 68,881 Type 993 vehicles. Putting everything on one card pays off for Porsche in the end. With the fourth generation of the cult sports car, the chapter of air-cooled engines in this unique model history ends in 1998 after 68,881 vehicles have been produced. After 35 years, the second epoch begins. It is the beginning of an unprecedentedly successful time. For the 911. And for Porsche. Between 1993 and 1998, Porsche produced a total of 68,881 Type 993 vehicles.</p>
+                
+                <p>The vehicle offered here was completed in the factory as an original Porsche 993 Carrera RS and delivered to its first owner, an Italian Porsche collector. He used the car regularly and happily in the years that followed. The service booklet, which is available in the original and kept throughout, provides detailed information on this. The service intervals read as follows: 04/28/1996 - 5,870 KM | 05/12/1997 - 13,097 KM | 01/23/1998 - 19,504 KM | 09/22/1998 - 25,623 KM. At the end of 1998, the owner decided to implement a unique project at the world-renowned company RUF Automobile. He orders the upgrade to a RUF Turbo R, which consists of a new 993 Turbo engine optimized by RUF, a reinforced gearbox and a RUF performance chassis. The brakes are also being optimized which are replaced by RUF high-performance brakes, as well as the rims, which also come from RUF. With an output of 490 hp, this 993 RS was released back onto the streets and was regularly driven in the following years. The next customer service directly at RUF was carried out on January 21, 2000 with a mileage of 12,988 kilometers on the now new engine. The entries follow: 38,993 KM on 04/24/2002 | 48,729 KM on 09/18/2003 | 51,617 KM on 06/07/2004 | 57,512 KM on 05/30/2006 | 62,676KM on 10/16/2007. In the following years, the car is exhibited in a large private Porsche collection, but is no longer driven. At the same time, the vehicle was always kept ready for use and finally sold to its current owner in Germany in spring 2014. He also kept the vehicle in his collection in the years that followed, but without using the car again, so the mileage currently shows only 64,000 kilometers. With its unique driving performance, this Porsche 993 RS is the crowning glory of every Porsche garage for collectors and discerning drivers alike. We are handing over this unique 993 RS to its future owner, including current customer service and a new TÜV. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. but without using the car again and so the mileage at the present time still only shows 64,000 kilometers. With its unique driving performance, this Porsche 993 RS is the crowning glory of every Porsche garage for collectors and discerning drivers alike. We are handing over this unique 993 RS to its future owner, including current customer service and a new TÜV. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. but without using the car again and so the mileage at the present time still only shows 64,000 kilometers. With its unique driving performance, this Porsche 993 RS is the crowning glory of every Porsche garage for collectors and discerning drivers alike. We are handing over this unique 993 RS to its future owner, including current customer service and a new TÜV. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. We are handing over this unique 993 RS to its future owner, including current customer service and a new TÜV. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment. We are handing over this unique 993 RS to its future owner, including current customer service and a new TÜV. Our sales staff will be happy to answer any detailed questions you may have at any time. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>

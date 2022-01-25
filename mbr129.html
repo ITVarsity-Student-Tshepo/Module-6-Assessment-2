@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto4Sale</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="logo">
+            <img src="images/auto4sale-logo-tn.png"/>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <img src="images/skid-marks-banner.jpg"/>
+        </div>
+        
+        <div id="page">
+            <div id="content" style="margin-top: 100px;">
+                <h1>MERCEDES-BENZ R 129 280 SL</h1>
+                <div class="myslideshow">
+                        <div class="sideshow-content" style="max-width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20R%20129%20280%20SL1.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20R%20129%20280%20SL2.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20R%20129%20280%20SL3.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20R%20129%20280%20SL4.jpg" style="width:100%">
+                            <img class="sideshow" src="images/MERCEDES-BENZ%20R%20129%20280%20SL5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="butn controls">
+                            <div class="menu buttons">
+                                <button class="manubtn" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="manubtn" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+
+                            <button class="numbtn" onclick="currentDiv(1)">1</button> 
+                            <button class="numbtn" onclick="currentDiv(2)">2</button> 
+                            <button class="numbtn" onclick="currentDiv(3)">3</button> 
+                            <button class="numbtn" onclick="currentDiv(4)">4</button> 
+                            <button class="numbtn" onclick="currentDiv(5)">5</button> 
+                        </div>
+                    </div><br/><br/><br/><br/><br/><br/><br/>   
+
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("sideshow");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = x.length} ;
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-red", "");
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " w3-red";
+                        }
+                        </script>
+                <ul>
+                    <li>Only 3,204 km original kilometers</li>
+                    <li>One previous owner only</li>
+                    <li>Perfect new car condition</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <td><b>Construction year:</b></td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paintwork:</b></td>
+                        <td>Azurite blue metallic</td>
+                    </tr>
+                    <tr>
+                        <td><b>Interior:</b></td>
+                        <td>Leather | Black</td>
+                    </tr>
+                    <tr>
+                        <td><b>Transmission:</b></td>
+                        <td>Manually</td>
+                    </tr>
+                    <tr>
+				        <td><b>Milage:</b></td>
+						<td>3,204 original KM</td>
+                    </tr>
+                    <tr>
+				        <td><b>Power:</b></td>
+				        <td>193 hp</td>
+                    </tr>
+                    <tr>
+				        <td><b>Fuel:</b></td>
+						<td>Petrol</td>
+                    </tr>
+                    <tr>
+				        <td><b>Price:</b></td>
+						<td>€59 900</td>
+                    </tr>
+                </table>
+                
+                <p>The world premiere of the new SL 129 series was one of the main attractions at the Geneva Motor Show in March 1989. Apart from the overall concept, the completely redesigned 300 SL, 300 SL 24 and 500 SL had practically nothing in common with the predecessor models of the 107 series. Just as the 350 SL had demonstrated automotive progress 18 years earlier with a wealth of innovative design details, the SL of the 129 series was also a new car in every respect. The new SL generation impressed with its harmonious and extremely successful stylistic design, which expressed dynamism and sportiness, but also comfort and elegance. On the one hand, the design was tradition-oriented and, on the other hand, pointed far into the future with creatively new detailed solutions. For example, the radiator grille, the legendary trademark of the SL models, was reinterpreted in a style that retained the traditional basic shape. While the wide chrome frame with the star dominated on the previous models, the radiator grille was now organically integrated into the bonnet; the star, the only chrome decoration on the car, was supplemented by horizontal slats made of anodised aluminium. Significant improvements compared to the previous models have been achieved in terms of passive safety. With a great deal of development effort, it was possible to implement the exemplary safety standard achieved in the sedans and coupés in the SL as well. The lack of an umbrella organization required a body structure that differed fundamentally from the closed variants and thus required intensive development work. The desired dimensional stability of the passenger cell was achieved through the interaction of various structural elements. These included, above all, a particularly rigid floor system with high-strength sheet metal and large cross-sections as well as rigid transitions from the A pillars and the rear side parts to the side longitudinal members. The doors also played a crucial role. Thanks to the ingenious beading design on the inside of the door, they functioned as a pressure-resistant connection between the front wall and center pillar, thus helping to preserve the survival space in the event of a collision. The 2.8 liter The SL 280 engine had been used in the 124 series and the 300 SE 2.8 S-Class sedan since October 1992 and outperformed the higher-displacement two-valve engine from the M 103 model family in terms of output and torque without exhibiting higher fuel consumption. With the 3.2 liter unit of the SL 320, which had already proven itself in the S-Class models 300 SE and 300 SEL since March 1991, the nominal power remained the same as that of the previous four-valve unit, but was increased to 900 rpm reached earlier; the maximum torque was significantly higher and was also shifted to lower speeds. Overall, the new six-cylinder engines achieved a significant improvement in performance characteristics and running smoothness. The SL 280 was the only model in the series that was still available with a 5-speed manual transmission. 8 was used and outperformed the higher-displacement two-valve engine from the M 103 type family in terms of output and torque without exhibiting higher fuel consumption. With the 3.2 liter unit of the SL 320, which had already proven itself in the S-Class models 300 SE and 300 SEL since March 1991, the nominal power remained the same as that of the previous four-valve unit, but was increased to 900 rpm reached earlier; the maximum torque was significantly higher and was also shifted to lower speeds. Overall, the new six-cylinder engines achieved a significant improvement in performance characteristics and running smoothness. The SL 280 was the only model in the series that was still available with a 5-speed manual transmission. 8 was used and outperformed the higher-displacement two-valve engine from the M 103 type family in terms of output and torque without exhibiting higher fuel consumption. With the 3.2 liter unit of the SL 320, which had already proven itself in the S-Class models 300 SE and 300 SEL since March 1991, the nominal power remained the same as that of the previous four-valve unit, but was increased to 900 rpm reached earlier; the maximum torque was significantly higher and was also shifted to lower speeds. Overall, the new six-cylinder engines achieved a significant improvement in performance characteristics and running smoothness. The SL 280 was the only model in the series that was still available with a 5-speed manual transmission.</p>
+                
+                <p>The R129 280 SL Roadster offered here is most likely unique in the world in this form. With an original mileage of 3,204 kilometers since it was first registered in October 1997 by the only previous owner to date near Dortmund, such a vehicle is a sensation for collectors today. Over the years, this 280 SL has always been well cared for and professionally stored, so it is of course not surprising that the car is still in absolutely perfect new condition even after more than 20 years that have passed since it was delivered. The vehicle was presented to the TÜV in December last year and passed it without any complaints. This Mercedes-Benz R129 280 SL promises its new owner a more than unique experience, because one thing is certain. Time travel has never been more fun. For more information, please contact our sales staff. Please note that vehicle inspections are generally only possible by prior appointment.</p>
+            </div>
+            
+            <div id="sidebar" style="margin-top: 100px;">
+                <h2>HOT PICKS</h2>
+                <ul class="styled">
+                    <li><a href="alfa1600.html"><img src="images/ALFA%20ROMEO%20GIULIA%20SPRINT%20GTA%201600%20CORSA1.jpg" alt="alt-text"/><p>ALFA ROMEO GIULIA SPRINT GTA 1600 CORSA</p></a></li>
+                    <li><a href="mbg650.html"><img src="images/MERCEDES-BENZ%20G650%20MAYBACH%20LANDAULET1.jpg" alt="alt-text"/><p>MERCEDES-BENZ G650 MAYBACH LANDAULET</p></a></li>
+                    <li><a href="mbslpagoda.html"><img src="images/MERCEDES-BENZ%20W%20113%20280%20SL%20ROADSTER1.jpg" alt="alt-text"/><p>MERCEDES-BENZ W 113 280 SL ROADSTER</p></a></li>
+                    <li><a href="porscheruf.html"><img src="images/PORSCHE%20993%20CARRERA%20RS%20RUF%20TURBO%20R1.jpg" alt="alt-text"/><p>PORSCHE 993 CARRERA RS RUF TURBO R</p></a></li>
+                    <li><a href="ferrari250.html"><img src="images/FERRARI%20250%20GT%20BERLINETTA%20LUSSO1.jpg" alt="alt-text"/><p>FERRARI 250 GT BERLINETTA LUSSO</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="box1">
+                <h2>Useful Tools & Posts</h2>
+                <ul class="styled">
+                    <li><a href="#">Stunning pics!</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Value of My Car</a></li>
+                    <li><a href="#">Awesome stuff</a></li>
+                    <li><a href="#">Stop dreaming...</a></li>
+                    <li><a href="#">Stay driving...</a></li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h2>Custom Build Your Own</h2>
+                <ul class="styled">
+                    <li><a href="https://www.mbusa.com/en/vehicles/build/maybach-s-class/sedan">Mercedes-Maybach</a></li>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_US/bespoke/configure-your-rolls-royce.html">Rolls-Royce</a></li>
+                    <li><a href="https://configurator.astonmartin.com/">Aston Martin</a></li>
+                    <li><a href="https://www.brabus.com/en/cars/configurator.html">Brabus</a></li>
+                    <li><a href="https://www.alfaromeo.com/car-configurator-hub">Alfa Romeo</a></li>
+                    <li><a href="https://carconfigurator.ferrari.com/">Scuderia Ferrari</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h2>Follow Us</h2>
+                <p>Connect with us to stay informed...</p>
+                    <a href="#"><img src="images/twitter.png" height="30"/></a>
+                    <a href="#"><img src="images/facebook.png" height="30"/></a>
+                    <a href="#"><img src="images/instagram.png" height="30"/></a>
+                    <a href="#"><img src="images/pinterest.png" height="30"/></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; All Rights Reserved | Designed by Tshepo Motlana</p>
+        </div>
+    </body>
+</html>
